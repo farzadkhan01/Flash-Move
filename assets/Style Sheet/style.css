@@ -1,0 +1,1105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "League Spartan", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --first-heading: #E2F3F0;
+    --secound-heading: #F3F3F3;
+    --sections-top: #232323;
+    --white-: #fff;
+    --lightgreen: #9ED6CC;
+}
+
+.container {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.common-heading h2 {
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 110.4px;
+    letter-spacing: 0.05em;
+    color: #ffffff40;
+    text-transform: uppercase;
+}
+
+.secound-common-heading h3 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 18.4px;
+    padding-bottom: 35px;
+}
+
+
+/* ================================================ */
+
+/* navbar */
+
+.hero-section {
+    background-image: url(../Images/Mask\ group.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white-);
+    padding: 15px 0;
+}
+
+.referances ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.referances ul li {
+    list-style: none;
+}
+
+.referances ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #000;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+
+}
+
+/* first-glance */
+
+.hero-caption {
+    text-align: center;
+}
+
+.hero-caption h2 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 36.8px;
+    color: var(--white-);
+    padding-top: 14rem;
+    padding-bottom: 1.5rem;
+}
+
+.hero-caption p {
+    color: var(--white-);
+}
+
+/* hero-form */
+
+.hero-form {
+    background-color: #9ed6cc99;
+    margin: 42px 42rem;
+    padding: 20px 20px;
+    margin-bottom: 0;
+}
+
+.hero-form input {
+    padding: 16px 0px 15px 40px;
+    margin-top: 4px;
+    border: none;
+}
+
+.hero-form img {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 20px;
+}
+
+.hero-upper-input input {
+    width: 29.9rem;
+    margin: 0;
+}
+
+.hero-bottom-input input {
+    width: 13.58rem;
+}
+
+.hero-bottom-input img {
+    margin: 18px 0 0px -245px;
+}
+
+.hero-form a {
+    text-decoration: none;
+    padding: 13px 43px;
+    border: 1px solid #fff;
+}
+
+.hero-form button {
+    margin-top: 30px;
+    border: none;
+    background-color: #9ed6cc38;
+    color: #fff;
+}
+
+/* Services */
+
+.services {
+    background-color: #3B6B63;
+    padding-bottom: 100px;
+}
+
+
+.services-heading h2 {
+    text-align: start;
+}
+
+.services-heading p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.services-information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.all-services {
+    padding-right: 130px;
+}
+
+.all-services hr {
+    border: none;
+    width: 100%;
+    background-color: #ffffff40;
+    height: 2px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+
+.service-img-caption {
+    display: flex;
+    align-items: center;
+}
+
+.service-img-caption p {
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--white-);
+}
+
+.services-caption {
+    text-align: left;
+}
+
+.services-caption p {
+    text-align: justify;
+    color: var(--white-);
+    padding-bottom: 15px;
+}
+
+.services-caption a {
+    text-decoration: none;
+    color: var(--lightgreen);
+}
+
+.services button {
+    background-color: #3b6b6300;
+    border: none;
+}
+
+.services button a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 60px;
+    border: 1px solid #fff;
+    margin-top: 30px;
+    background-color: #9ed6cc00;
+}
+
+/* about us */
+
+.about-us-information {
+    background-color: #F9F9F9;
+    text-align: justify;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about-image {
+    width: 50%;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-caption {
+    width: 50%;
+}
+
+.about-heading h2 {
+    color: #8ce5d64d;
+    text-align: end;
+}
+
+.about-info h3 {
+    padding-top: 50px;
+}
+
+.about-info {
+    margin-left: 150px;
+}
+
+.about-btn {
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+/* featured On */
+
+.featured-heading h2 {
+    color: #0000001c;
+    text-align: start;
+}
+
+.news-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+/* contracts */
+
+.contracts {
+    background-color: #E2F3F0;
+}
+
+.contract-information {
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-right: 0;
+}
+
+.contract-form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 100px;
+}
+
+.contract-heading h3 {
+    text-align: left;
+    line-height: 35px;
+}
+
+.contract-form input,
+.contract-form textarea {
+    background-color: #f3f3f300;
+    padding: 15px 0px 15px 5px;
+    width: 30rem;
+    margin-bottom: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #00000061;
+}
+
+.contract-icon {
+    position: absolute;
+    margin-left: 29rem;
+    margin-top: -28px;
+}
+
+
+.contract-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.contract-form button {
+    text-align: center;
+}
+
+.contract-btn {
+    width: 55%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contract-btn button {
+    padding: 10px 60px 10px 60px;
+    background-color: #498379;
+    border: none;
+}
+
+.contract-btn button a {
+    text-decoration: none;
+    color: var(--white-);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+}
+
+/* testimonals */
+
+.testimonials-area {
+    padding: 150px 0;
+}
+
+.testimonials-caption h2 {
+    color: rgba(243, 243, 243, 1);
+}
+
+.testimonials-info {
+    background-color: #E2F3F0;
+    padding: 50px 130px;
+    margin-top: 45px;
+    margin-bottom: 70px;
+}
+
+/* footer */
+
+.footer {
+    background-color: rgba(158, 214, 204, 1);
+    padding: 60px 0 20px 0;
+}
+
+.footer-main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-logo-caption a,
+.footer-logo-caption img {
+    width: 60%;
+    height: 100%;
+}
+
+.common {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+}
+
+.footer-logo-caption {
+    text-align: justify;
+    width: 30%;
+}
+
+.common a {
+    text-decoration: none;
+}
+
+.common a,
+.common h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #232323;
+    padding-bottom: 25px;
+}
+
+.footer-common-heading h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    padding: 50px 0px 30px 0px;
+}
+
+.footer-social {
+    text-align: start;
+}
+
+.footer-social h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    text-align: start;
+}
+
+/* copyright */
+
+.copyright-hr hr {
+    border: none;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 20px 0;
+}
+
+/* ====================================================================================== */
+/* Media Quaries */
+
+
+/* 4k media quary */
+@media only screen and (max-width: 2560px) {
+
+    body {
+        font-family: "League Spartan", sans-serif;
+        font-size: 18px;
+    }
+
+    .common-heading h2 {
+        font-size: 140px;
+        padding-top: 14px;
+    }
+
+    .secound-common-heading h3 {
+        font-size: 32px;
+    }
+
+    /* hero section */
+    .hero-form {
+        padding: 40px 20px;
+    }
+
+    .hero-upper-input input {
+        width: 41.4rem;
+    }
+
+    .hero-bottom-input input {
+        width: 19.3rem;
+    }
+
+
+    .hero-bottom-input img {
+        margin: 18px 0 0px -330px
+    }
+
+    .hero-form button {
+        margin-top: 50px;
+    }
+
+    /* services */
+
+    .services-heading p {
+        font-size: 26px;
+    }
+
+    /* footer */
+
+    .common a,
+    .common h5 {
+        font-size: 18px;
+    }
+
+}
+
+
+
+
+/* 2nd 4K */
+
+@media only screen and (max-width: 2115px) {
+
+    /* Hero section */
+
+    .hero-upper-input input {
+        width: 36rem;
+    }
+
+    .hero-bottom-input input {
+        width: 16.66rem;
+    }
+
+    hero-bottom-input input {
+        width: 18.3rem;
+    }
+
+    .hero-bottom-input img {
+        margin: 18px 0 0px -283px;
+    }
+}
+
+
+
+
+/* 3nd 4K */
+
+@media only screen and (max-width: 2000px) {
+
+    /* hero Section */
+    .hero-form {
+        margin: 42px 35rem;
+    }
+
+    .hero-upper-input input {
+        width: 32rem;
+    }
+
+    .hero-bottom-input input {
+        width: 14.66rem;
+    }
+
+    .hero-bottom-input img {
+        margin: 17px 0 0px -260px;
+    }
+
+}
+
+
+
+
+/* 4nd 4K */
+
+@media only screen and (max-width: 1720px) {
+
+
+    .hero-form {
+        background-color: #9ed6cc99;
+        margin: 42px 25rem;
+
+    }
+
+    .hero-upper-input input {
+        width: 35rem;
+    }
+
+    .hero-bottom-input input {
+        width: 16.1rem;
+    }
+
+    .hero-bottom-input img {
+        margin: 17px 0 0px -288px;
+    }
+
+    /* contract */
+
+    .contract-btn {
+        margin-bottom: 20px;
+    }
+
+
+}
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries 1440 PX*/
+
+@media only screen and (max-width: 1440px) {
+
+    .container {
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+
+    .common-heading h2 {
+        font-size: 110px;
+        padding-top: 14px;
+    }
+
+    .hero-form {
+        background-color: #9ed6cc99;
+        margin: 41px 18rem;
+    }
+
+    /* About US */
+
+    .about-info {
+        margin-left: 35px;
+    }
+
+    .about-btn {
+        font-size: 16px;
+        margin-top: 13px;
+    }
+
+    /* contract */
+
+    .contract-form input,
+    .contract-form textarea {
+        background-color: #f3f3f300;
+        padding: 0 0px 10px 5px;
+        width: 20rem;
+        margin-bottom: 30px;
+    }
+
+    .contract-icon {
+        margin-left: 19rem;
+        margin-top: -20px;
+    }
+
+    .contract-btn {
+        margin-top: 10px;
+    }
+
+    /* <!-- services --> */
+
+    .all-services {
+        padding-right: 40px;
+    }
+
+}
+
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries 1232 PX*/
+
+@media only screen and (max-width: 1232px) {
+
+    .container {
+        margin-right: 70px;
+        margin-left: 70px;
+    }
+
+    /* hero section */
+
+    .hero-form {
+        margin: 41px 12rem;
+    }
+
+    /* contract */
+
+    .contract-information {
+        align-items: center;
+    }
+
+    .contract-form {
+        margin-right: 15px;
+    }
+
+    /* footer */
+
+    .footer-main {
+        padding-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries 1024 PX*/
+
+@media only screen and (max-width: 1024px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    .common-heading h2 {
+        font-size: 75px;
+    }
+
+    /* hero section  */
+
+    .hero-form {
+        margin: 41px 8rem;
+    }
+
+    /* about Us */
+
+    .about-info {
+        margin-left: 30px;
+    }
+
+    .about-info h3 {
+        padding-top: 15px;
+    }
+
+    /* <!-- featured On --> */
+
+    .secound-common-heading h3 {
+        font-size: 24px;
+    }
+
+    /* services */
+
+    .services-heading p {
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries 896 PX*/
+
+@media only screen and (max-width: 896px) {
+
+    .container {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    /* hero section */
+
+    .hero-form {
+        margin: 41px 3rem;
+    }
+
+    /* featured */
+
+    .news-logo {
+        margin: 0;
+
+    }
+
+    .news-logo img {
+        width: 100%;
+        height: 100%;
+        padding: 0 3px;
+    }
+
+    /* footer */
+
+    .footer-common-heading h4 {
+        padding: 35px 0px 30px 0px;
+    }
+}
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries Tablet 768 PX*/
+
+@media only screen and (max-width: 768px) {
+
+    .secound-common-heading h3 {
+        line-height: 32.4px;
+    }
+
+    /* hero section */
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-logo {
+        padding-bottom: 12px;
+    }
+
+    .referances ul li a {
+        padding: 0px 20px 0 20px;
+    }
+
+    .social-links img {
+        padding-top: 20px;
+    }
+
+    .hero-upper-input input {
+        width: 25rem;
+    }
+
+    .hero-bottom-input input {
+        width: 11.1rem;
+    }
+
+    .hero-bottom-input img {
+        margin: 17px 0 0px -206px;
+    }
+
+    .hero-caption h2 {
+        padding-top: 9rem;
+    }
+
+    .hero-caption p br {
+        display: none;
+    }
+
+    /* services */
+
+    .all-services {
+        padding: 0 0 50px 0;
+    }
+
+    .services-information {
+        flex-direction: column;
+    }
+
+    .service-img-caption {
+        justify-content: center;
+    }
+
+    .services-information {
+        padding: 100px 0 25px;
+    }
+
+    /* about us */
+
+
+    .about-us-information {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .about-image {
+        width: 100%;
+    }
+
+    .about-caption {
+        width: 100%;
+    }
+
+
+    /* <!-- featured On --> */
+
+    .news-logo img {
+        width: 15%;
+    }
+
+
+    /* contracts */
+
+    .contract-information {
+        flex-direction: column-reverse;
+    }
+
+    .contract-form {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-logo-caption a,
+    .contract-heading {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contract-heading h3 {
+        text-align: center;
+    }
+
+    /* Testimonials */
+
+    .testimonials-info {
+        padding: 50px 50px;
+    }
+
+    /* footer */
+
+    .footer-main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .common {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-logo-caption {
+        text-align: center;
+    }
+
+    .footer-logo-caption img {
+        width: 35%;
+        text-align: center;
+    }
+
+    .footer-logo-caption {
+        width: 100%;
+    }
+
+    .footer-social,
+    .footer-social h4 {
+        text-align: center;
+    }
+
+    .footer-main {
+        padding-bottom: 15px;
+    }
+
+    .footer-social a img {
+        padding-top: 15px;
+    }
+
+}
+
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries Tablet 579 PX*/
+
+@media only screen and (max-width: 579px) {
+
+    .container {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .common-heading h2 {
+        font-size: 55px;
+    }
+
+    /* hero section */
+    .hero-caption h2 {
+        font-size: 34px;
+    }
+
+    .hero-form {
+        margin: 41px 1rem;
+    }
+
+    .hero-upper-input input {
+        width: 19.56rem;
+    }
+
+    .hero-bottom-input input {
+        width: 8.4rem;
+    }
+
+    .hero-bottom-input img {
+        margin: 17px 0 0px -165px;
+    }
+
+    /* services */
+
+    .services-heading p {
+        line-height: 32px;
+    }
+
+    /* Testimonals */
+
+    .testimonials-area {
+        padding: 100px 0;
+    }
+}
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries Tablet 425 PX*/
+
+@media only screen and (max-width: 425px) {
+
+    .hero-caption h2 {
+        padding-top: 3rem;
+    }
+
+    .common-heading h2 {
+        font-size: 48px;
+    }
+
+    /* navbar */
+
+    .referances ul li a {
+        padding: 0px 10px 0 10px;
+    }
+
+    /* hero section  */
+
+    .hero-upper-input input {
+        width: 16.3rem;
+    }
+
+    .hero-bottom-input input {
+        width: 6.8rem;
+    }
+
+    .hero-bottom-input img {
+        margin: 17px 0 0px -135px;
+    }
+
+    /* services */
+
+    .services-heading p {
+        line-height: 27px;
+    }
+
+}
+
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries Mobile 375 PX*/
+
+@media only screen and (max-width: 375px) {
+
+    .common-heading h2 {
+        font-size: 40px;
+    }
+
+    /* navbar */
+
+    .referances ul li a {
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .hero-upper-input input {
+        width: 13.8rem;
+    }
+
+    .hero-bottom-input input {
+        width: 6rem;
+    }
+
+    .hero-bottom-input img {
+        margin: 17px 0 0px -118px;
+    }
+
+    .hero-form input {
+        padding: 16px 0px 15px 25px;
+    }
+
+    /* contract */
+
+    .contract-form input,
+    .contract-form textarea {
+        width: 15rem;
+    }
+
+    .contract-icon {
+        margin-left: 14rem;
+        margin-top: -20px;
+    }
+
+    /* testimonals */
+
+    .testimonials-info {
+        padding: 50px 20px;
+        text-align: justify;
+    }
+
+}

@@ -1,0 +1,237 @@
+.top-gap {
+    margin-top: 150px;
+}
+
+
+/*  First common service  */
+
+.all-facilities {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(226, 243, 240, 1);
+}
+
+.service-info {
+    text-align: start;
+    width: 50%;
+    padding-left: 250px;
+    padding-right: 40px;
+}
+
+.service-info p {
+    text-align: justify;
+}
+
+.service-info button {
+    border: 1px solid rgba(59, 107, 99, 1);
+    background-color: rgba(255, 255, 255, 0);
+    font-family: League Spartan;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    color: rgba(59, 107, 99, 1);
+    padding: 10px 55px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.facilities-image {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    padding-left: 15px;
+}
+
+.facilities-image img {
+    width: 100%;
+    height: 100%;
+}
+
+/* secound common service */
+
+.all-facilities-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(226, 243, 240, 1);
+    margin: 50px 0;
+}
+
+.facilities-image-2 {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.services-information-2 {
+    padding-left: 150px;
+    padding-right: 250px;
+}
+
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries 1440 PX*/
+
+@media only screen and (max-width: 1440px) {
+
+    /* <!-- Services Caption --> */
+    /* <!-- First common service --> */
+
+    .service-info {
+        padding-left: 70px;
+        padding-right: 20px;
+    }
+
+    /* <!-- secound common service --> */
+
+    .services-information-2 {
+        padding-right: 70px;
+        padding-left: 20px;
+    }
+}
+
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries 1024 PX*/
+
+@media only screen and (max-width: 1024px) {
+
+
+    /* <!-- Services Caption --> */
+    /* <!-- First common service --> */
+
+    .facilities-image img {
+        width: 100%;
+    }
+
+    .facilities-image {
+        background-color: #fff0;
+        padding: 0;
+        width: 55%;
+    }
+
+    .service-info {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .service-info {
+        padding-left: 30px;
+        padding-right: 20px;
+        width: 45%;
+    }
+
+    /* <!-- secound common service --> */
+
+    .services-information-2 {
+        padding-right: 30px;
+        padding-left: 20px;
+    }
+}
+
+
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries 768 PX*/
+
+@media only screen and (max-width: 768px) {
+
+    .top-gap {
+        margin-top: 70px;
+    }
+
+    .all-facilities {
+        flex-direction: column;
+        padding: 25px 0;
+
+    }
+
+    /* Services Caption */
+
+    .service-info {
+        padding: 0 0 25px 0;
+        width: auto;
+        margin: 0 5px;
+    }
+
+    .facilities-image {
+        width: auto;
+        margin: 0 5px;
+    }
+
+    .all-facilities-2 {
+        flex-direction: column-reverse;
+        padding: 25px 0;
+
+    }
+
+}
+
+
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries 579 PX*/
+
+@media only screen and (max-width: 579px) {
+
+    .common-top h1 {
+        font-size: 50px;
+    }
+
+    .top-gap {
+        margin-top: 45px;
+    }
+
+}
+
+
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries 425 PX*/
+
+@media only screen and (max-width: 425px) {
+
+    .common-top h1 {
+        font-size: 45px;
+    }
+
+    .top-gap {
+        margin-top: 45px;
+    }
+}
+
+
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries 375 PX*/
+
+@media only screen and (max-width: 375px) {
+
+    .common-top h1 {
+        font-size: 36px;
+    }
+
+}

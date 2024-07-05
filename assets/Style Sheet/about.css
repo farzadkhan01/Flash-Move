@@ -1,0 +1,561 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "League Spartan", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+:root {
+    --first-heading: #E2F3F0;
+    --secound-heading: #F3F3F3;
+    --sections-top: #232323;
+    --white-: #fff;
+    --lightgreen: #9ED6CC;
+}
+
+.container {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.common-heading h2 {
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 110.4px;
+    letter-spacing: 0.05em;
+    color: #dddddda6;
+    text-transform: uppercase;
+}
+
+.secound-common-heading h3 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 18.4px;
+    padding-bottom: 35px;
+}
+
+.common-top h1 {
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 110.4px;
+    letter-spacing: 0.05em;
+    color: rgba(158, 214, 204, 1);
+    margin: 50px 0;
+}
+
+.top-gap {
+    margin-top: 150px;
+}
+
+/* ================================================================ */
+
+/* Secound section All information */
+
+.about-caption {
+    text-align: start;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    column-gap: 90px;
+    width: 100%;
+}
+
+.about-information {
+    width: 50%;
+
+}
+
+.about-images {
+    width: 50%;
+}
+
+.common-images img {
+    width: 100%;
+    height: 100%;
+}
+
+.middle-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    padding-bottom: 10px;
+}
+
+.middle-img img {
+    width: 50%;
+    height: 50%;
+}
+
+.about-information p {
+    text-align: justify;
+}
+
+.about-img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Clientle */
+
+.clientle-caption {
+    background-color: rgba(226, 243, 240, 1);
+}
+
+.clientle {
+    text-align: start;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 100px 0;
+    width: 100%;
+}
+
+
+.clientle-caption {
+    margin-right: 0;
+    width: 50%;
+    padding: 50px 50px 50px 0;
+}
+
+.clientle-info p {
+    text-align: justify;
+}
+
+.margin-right {
+    margin-right: 0;
+}
+
+.clientle-img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+}
+
+.clientle-img img {
+    height: 100%;
+    padding: 25px 0;
+}
+
+
+.clientle-images {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 140px;
+    width: 50%;
+}
+
+/* Functioning */
+
+.functioning {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 60px 150px 0 150px;
+}
+
+.technique h3 {
+    padding-top: 15px;
+}
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries 1850 PX*/
+
+@media only screen and (max-width: 2200px) {
+
+    .common-top h1 {
+        font-size: 150px;
+    }
+
+}
+
+
+
+/* ====================================================================================== */
+/* Media Quaries 1440 PX*/
+
+@media only screen and (max-width: 1440px) {
+    .container {
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+
+    .common-top h1 {
+        font-size: 120px;
+    }
+
+    /* <!-- clientle --> */
+
+    .clientle-right-img {
+        margin-right: 130px;
+    }
+
+    .margin-right {
+        margin-right: 0;
+    }
+
+    .clientle {
+        column-gap: 30px;
+    }
+
+    /* Funvtioning */
+
+    .functioning {
+        padding: 60px 100px 0 100px;
+    }
+}
+
+
+
+/* ====================================================================================== */
+/* Media Quaries 1232 PX*/
+
+@media only screen and (max-width: 1232px) {
+
+    .container {
+        margin-right: 70px;
+        margin-left: 70px;
+    }
+
+    .common-top h1 {
+        font-size: 130px;
+    }
+
+    .top-gap {
+        margin-top: 90px;
+    }
+
+    /* Secound section All information */
+
+    .about-caption {
+        column-gap: 40px;
+    }
+
+    .margin-right {
+        margin-right: 0;
+    }
+
+    /* clientle */
+
+    .clientle-img {
+        width: 25%;
+    }
+
+    .clientle-right-img {
+        margin-right: 0;
+    }
+}
+
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries 1232 PX*/
+
+@media only screen and (max-width: 1024px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    .top-gap {
+        margin-top: 90px;
+    }
+
+    .common-top h1 {
+        font-size: 100px;
+        margin: 0px 0;
+    }
+
+    .container {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .margin-right {
+        margin-right: 0;
+    }
+
+    /* clientle */
+
+    .clientle-caption {
+        margin-right: 0;
+        width: 43%;
+    }
+
+    .common-heading h2 {
+        font-size: 75px;
+    }
+}
+
+
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries 896 PX*/
+
+@media only screen and (max-width: 896px) {
+
+    .common-top h1 {
+        font-size: 80px;
+        margin: 0;
+    }
+
+    .top-gap {
+        margin-top: 50px;
+    }
+
+    /* Secound section All information */
+
+    .middle-img {
+        flex-direction: column;
+    }
+
+    .middle-img img {
+        padding-top: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* clientle */
+
+    .clientle-caption {
+        margin-right: 0;
+        width: 54%;
+    }
+
+    .clientle-images {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 22%;
+    }
+
+    .clientle-img {
+        width: 50%;
+    }
+
+    .clientle-img img {
+        padding: 15px 0;
+    }
+
+    /* functioning */
+
+    .functioning {
+        padding: 60px 30px 0 30px;
+    }
+}
+
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries Tablet 768 PX*/
+
+@media only screen and (max-width: 768px) {
+
+    .common-top h1 {
+        font-size: 70px;
+        margin-bottom: 0;
+    }
+
+    .top-gap {
+        margin-top: 70px;
+    }
+
+    /* Secound section All information */
+
+    .about-caption {
+        flex-direction: column-reverse;
+    }
+
+    .about-information {
+        width: 100%;
+    }
+
+    .about-images {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .middle-img {
+        flex-direction: row;
+    }
+
+    .middle-img img {
+        padding-top: 0;
+    }
+
+    /* clientle */
+
+    .clientle {
+        flex-direction: column-reverse;
+    }
+
+    .clientle-caption {
+        margin-right: 0;
+        width: 100%;
+        padding: 50px 0 50px 0;
+    }
+
+    .margin-right {
+        margin-right: 30px;
+    }
+
+    .clientle-images {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+
+    .clientle-right-img {
+        margin: 0;
+    }
+
+    /* functioning */
+
+    .functioning {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries Tablet 579 PX*/
+
+@media only screen and (max-width: 579px) {
+
+    .container {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .common-heading h2 {
+        font-size: 55px;
+    }
+
+    .top-gap {
+        margin-top: 45px;
+    }
+
+    .common-top h1 {
+        margin: 0;
+    }
+
+    /* <!-- Secound section All information --> */
+
+    .middle-img img {
+        padding-top: 0px;
+        width: 49%;
+    }
+
+    /* clientle */
+
+    .clientle-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 15%;
+    }
+
+    /* functioning */
+
+    .functioning-technique br {
+        display: none;
+        margin: 0 5px;
+    }
+}
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries Tablet 425 PX*/
+
+@media only screen and (max-width: 425px) {
+
+    .common-heading h2 {
+        font-size: 40px;
+    }
+
+    .common-top h1 {
+        font-size: 45px;
+        margin-bottom: 0;
+    }
+
+    /* clientle */
+
+    .clientle-images {
+        align-items: flex-start;
+        column-gap: 50px;
+        margin-bottom: 50px;
+    }
+
+    .clientle-left-img {
+        margin-left: 50px;
+    }
+
+    .clientle-right-img {
+        margin-right: 50px;
+    }
+
+    .clientle-img {
+        width: 25%;
+    }
+
+    .clientle-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries Mobile 375 PX*/
+
+@media only screen and (max-width: 375px) {
+
+    /* functioning */
+
+    .functioning {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .technique h3 {
+        padding: 0;
+    }
+
+    .functioning>img {
+        rotate: 90deg;
+        padding: 35px 0;
+    }
+}

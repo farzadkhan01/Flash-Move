@@ -1,0 +1,159 @@
+.contact {
+    width: 890px;
+    margin: auto;
+}
+
+.contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contract-form {
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.contract-heading h3 {
+    text-align: center;
+}
+
+.top-gap {
+    margin-top: 150px;
+}
+
+/* MAP */
+
+.map {
+    width: 890px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+
+
+/* ====================================================================================== */
+/* Media Quaries */
+
+
+/* ====================================================================================== */
+/* Media Quaries 1440 PX*/
+
+@media only screen and (max-width: 1440px) {
+    
+    .contract-form {
+        margin-right: 0;
+    }
+
+    .contract-form input,
+    .contract-form textarea {
+        width: 30rem;
+        font-size: 15px;
+
+    }
+}
+
+
+
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries 1024 PX*/
+
+@media only screen and (max-width: 1024px) {
+
+    .top-gap {
+        margin-top: 90px;
+    }
+
+    .contact {
+        width: 600px;
+    }
+
+    .map {
+        width: 600px;
+        margin: auto;
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries 768 PX*/
+
+@media only screen and (max-width: 768px) {
+
+    .common-top h1 {
+        font-size: 66px;
+    }
+
+    .contract-form input,
+    .contract-form textarea {
+        width: 20rem;
+    }
+
+    .contact,
+    .map {
+        width: 450px;
+    }
+}
+
+
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries 579 PX*/
+
+@media only screen and (max-width: 579px) {
+
+    .contact,
+    .map {
+        width: 350px;
+    }
+
+
+    /* <!-- contracts --> */
+
+    .contract-form {
+        margin-right: 0;
+    }
+
+    .contract-form input,
+    .contract-form textarea {
+        width: 15rem;
+    }
+}
+
+
+
+
+
+
+/* ====================================================================================== */
+/* Media Quaries 375 PX*/
+
+@media only screen and (max-width: 375px) {
+
+    .contact,
+    .map {
+        width: 280px;
+    }
+
+    .contract-form input,
+    .contract-form textarea {
+        margin-bottom: 45px;
+    }
+
+}
